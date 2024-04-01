@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+.TodoApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../asset/todo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TodoApp h1{
+    margin: 20px;
+    font-size: 3rem;
+    color: #ffff;
+}
+
+
+.todoinput input{
+    padding: 5px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+
+.todoinput button, .todolist ul li button{
+    border: none;
+    background: rgb(255, 136, 0);
+    padding: 5px;
+    border-radius: 0 8px 8px 0;
+}
+
+.todoinput input::placeholder{
+    padding: 0 5px;
+}
+
+.todolist{
+    margin: 10px;
+}
+
+
+
+.todolist ul li span{
+    padding: 0 10px;
+    font-size: 20px;
+}
