@@ -20,20 +20,19 @@
 .TodoApp h1{
     margin: 20px;
     font-size: 3rem;
-    color: #ffff;
+    color: #c50808;
 }
 
 
 .todoinput input{
     padding: 5px;
     border-radius: 8px 0 0 8px;
-    border: none;
 }
 
 .todoinput button, .todolist ul li button{
     border: none;
     background: rgb(255, 136, 0);
-    padding: 5px;
+    padding: 6px;
     border-radius: 0 8px 8px 0;
 }
 
